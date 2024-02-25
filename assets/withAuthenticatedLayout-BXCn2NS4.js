@@ -1,0 +1,1 @@
+import{u as a,j as t,F as i}from"./index-B9KG-C9s.js";import{N as c}from"./BaseLayout-BZhe71E4.js";const p=s=>{const n=a(r=>r.auth.user),e=a(r=>r.auth.error),o=a(r=>r.auth.isLoading),{children:u}=s;return o?t.jsx(i,{}):!n||e?t.jsx(c,{to:"/login"}):t.jsx(t.Fragment,{children:u})},x=(s,n)=>{const e=()=>t.jsx(p,{children:t.jsx(s,{})});return e.displayName=n,e};export{x as w};
